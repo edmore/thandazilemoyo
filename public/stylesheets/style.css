@@ -109,7 +109,7 @@ body {
 header {
   font-family: 'Palatino';
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
   color: #000;
   text-align: center;
 /*
@@ -210,11 +210,23 @@ div.home img {
   float: left;
   padding: 20px;
 }
+div.home a {
+  font-size: 25px;
+}
 p {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 header span {
   background-color: #000;
-  color: #fff;
+  color: #ff0;
   padding: 5px;
+  font-size: 20px;
+}
+div.contact span a {
+  background-color: #000;
+  color: #ff0;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
 }
