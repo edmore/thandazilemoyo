@@ -2,15 +2,14 @@
   "name": "thandazilemoyo",
   "description": "Thandazile Moyo Personal Site",
   "version": "0.0.1",
-  "engines": {
-    "node": "0.8.x",
-    "npm":  "1.1.x"
-   },
   "private": true,
   "dependencies": {
     "express": "3.0.0rc1",
     "jade": "*",
     "stylus": "*",
     "nib": "*"i
-  }
+  },
+  "engine": {
+    "node": ">=0.8"
+   }
 }
