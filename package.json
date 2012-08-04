@@ -9,7 +9,8 @@
     "stylus": "*",
     "nib": "*"
   },
-  "engine": {
-    "node": "0.8.x"
+  "engines": {
+    "node": "0.8.5",
+    "npm": "1.1.41"
    }
 }
