@@ -7,9 +7,9 @@
     "express": "3.0.0rc1",
     "jade": "*",
     "stylus": "*",
-    "nib": "*"i
+    "nib": "*"
   },
   "engine": {
-    "node": ">=0.8"
+    "node": "0.8.x"
    }
 }
