@@ -108,11 +108,12 @@ body {
 }
 header {
   font-family: 'Palatino';
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   color: #000;
   width: 100%;
-  overflow: hidden;
   padding-bottom: 10px;
+  position: relative;
+  white-space: nowrap;
 /*
    * Note the use of the `main-color`
    * variable and the `darken` function
@@ -121,14 +122,26 @@ header {
   text-shadow: 0px -1px 0px #b3b3b3;
 }
 header h1 {
-  float: left;
   font-size: 40px;
   font-style: italic;
+  position: absolute;
+  top: 0px;
+}
+header span {
+  background-color: #000;
+  color: #ff0;
+  padding: 5px;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 .left-content {
   float: left;
   width: 70%;
   font-size: 20px;
+  margin-left: 0px;
+  margin-top: 100px;
 }
 .left-content a {
   background-color: #000;
@@ -193,7 +206,7 @@ footer {
   border-top: 1px dotted #ccc;
   padding-top: 5px;
   font-size: 20px;
-  clear: both;
+  float: left;
 }
 .sidebar {
   position: fixed;
@@ -217,12 +230,8 @@ div.home a {
 p {
   margin-top: 20px;
 }
-header span {
-  background-color: #000;
-  color: #ff0;
+div.contact span {
   padding: 5px;
-  font-size: 20px;
-  float: right;
 }
 div.contact span a {
   background-color: #000;

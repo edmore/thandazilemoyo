@@ -29,12 +29,12 @@ $(function(){
     });
 
     // Change image on rollover
-    $("div.home > img").hover(function(){
-        if( $(this).attr("src") === "/images/thandazile_circle_bw.png" ){
-            $(this).attr("src", "/images/thandazile_circle.png");
-        }else{
-            $(this).attr("src", "/images/thandazile_circle_bw.png");
-        }
+    $("div.home > img")
+    .mouseover(function(){
+        $(this).attr("src", "/images/thandazile_circle.png");
+    })
+    .mouseout(function(){
+        $(this).attr("src", "/images/thandazile_circle_bw.png");
     });
 });
 
