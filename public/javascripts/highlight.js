@@ -27,14 +27,5 @@ $(function(){
             $("a[name="+ scrollToElement +"]").ScrollTo();
         });
     });
-
-    // Change image on rollover
-    $("div.home > img")
-    .mouseover(function(){
-        $(this).attr("src", "/images/thandazile_circle.png");
-    })
-    .mouseout(function(){
-        $(this).attr("src", "/images/thandazile_circle_bw.png");
-    });
 });
 
